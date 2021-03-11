@@ -31,6 +31,7 @@ function showDisplayButton(){
  	player1Dice.classList.remove("active");
  	player2Dice.classList.add("active");
  	massage.textContent="Player 2 turn"
+ 	player2Dice.textContent='-';
  
 
  }else{
@@ -40,6 +41,7 @@ function showDisplayButton(){
  	 player2Dice.classList.remove("active");
  	 player1Dice.classList.add("active");
  	 massage.textContent="Player 1 turn"
+ 	 player1Dice.textContent="-";
 
  }
  // for winner 
